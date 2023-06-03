@@ -11,4 +11,7 @@
 * git remote add origin https://github.com/Liliana-Huaman/bootcamp-frontend-g14.git
 * git branch -M main
 * git push -u origin main
+* git pull
 * git remote remove origin
+* git checkout -b <nombre-de-la-rama>
+* git checkout main
