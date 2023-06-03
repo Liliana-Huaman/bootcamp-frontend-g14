@@ -15,3 +15,4 @@
 * git remote remove origin
 * git checkout -b <nombre-de-la-rama>
 * git checkout main
+* git merge <Nombre-de-la-rama>
