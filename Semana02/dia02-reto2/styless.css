@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: hsl(234, 29%, 20%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    display: flex;
+}
+
+.main section {    
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 4%;
+    padding: 20px; 
+    display: flex;   
+    gap: 14px;
+}
+
+.content {
+    font-size: 16px;
+    margin: 5% 40px;
+    min-width: 300px;
+}
+
+.content h1{
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: 700;
+    color:  hsl(234, 29%, 20%);
+}
+
+.content p{
+    color: hsl(235, 18%, 26%);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.content ul{
+    color: hsl(235, 18%, 26%);
+    list-style-image: url(./assets/images/icon-list.svg);
+    font-size: 16px;
+    margin: 20px 0;
+        
+}
+
+.content li{
+    margin: 10px 0 ;
+}
+
+.content label{
+    display: block;
+    padding-top: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(235, 18%, 26%);
+    width: 100%;
+}
+
+.content input{
+    margin-top: 10px;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400;
+    width: 100%;
+    height: 40px;
+    padding: 0px;
+    /* padding-left: 10px; */
+}
+
+.content button{
+    font-family: inherit;
+    font-weight: 700;
+    background-color: hsl(234, 29%, 20%);
+    border-radius: 7px;
+    border: 0;
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    padding: 17px;
+    margin-top: 20px;
+    cursor:pointer;
+}
+
+.content button:hover{
+    background: linear-gradient(to right,#FB5374,hsl(4, 100%, 67%)) ;
+    box-shadow: 2px 4px 30px hsl(4, 100%, 67%);
+}

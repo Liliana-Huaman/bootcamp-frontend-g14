@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+    </style>
+</head>
+<body>  
+    <main class="container" >
+        <section>
+            <form action="">
+                 <center><img src="./image/man-user-svgrepo-com.svg" height="150" width="150" ></center>
+                <hgroup>
+                    <h1>Crea una cuenta</h1>
+                    <h2>Ingresa la siguiente información para registrarte.</h2>
+                </hgroup>
+            
+                <label for="">
+                    <div class="grid">
+                        <span> 
+                            <label>
+                                Nombres
+                                <input type="text" placeholder="Liliana" required/>
+                            </label>
+                        </span>
+                        <span>
+                            <label >
+                                Apellidos
+                                <input type="text" placeholder="Huaman" required />
+                            </label>
+                        </span>
+                    </div>
+                </label>
+                <label >
+                    Edad
+                    <input type="number" min="1" max="99" placeholder="Ej. 19" required/>
+                </label>
+                <label >
+                    Fecha de nacimiento
+                    <input type="date" required />
+                </label>
+                <label >
+                   Genero
+                   <select name="genero" required>
+                    <option value="">Selecciona tu genero...</option>
+                    <option value="f">Femenino</option>
+                    <option value="m">Masculino</option>
+                    <option value="i">Prefiero no decirlo</option>
+                    </select>    
+                </label>
+                <label for="">
+                    Correo
+                    <input type="email" placeholder="Email: Ej. user@gmail.com" required />
+                </label>
+                <label >
+                    Dirección
+                    <input type="text" placeholder="Dirección" required />
+                    <input type="text" placeholder="Dirección linea 2"/>
+                </label>
+                <label for="">
+                    Teléfono
+                    <input type="tel" name="Telefono" required pattern="\+[0-9]{2} [0-9]{9}" placeholder="Número de teléfono"/>
+                </label>
+                <label >
+                    Código Postal
+                    <input type="text" placeholder="Ej. 14001" required maxlength="5" pattern="\[0-9]{5}"/>
+                </label>
+                <label >
+                    Ciudad
+                    <input type="text" placeholder="Ej. Chiclayo" required />
+                </label>
+                <label >
+                    Subir firma
+                    <input type="file" accept="image/*" />
+                </label>
+                <label >
+                    <input type="checkbox" name="Terminos" value="t" required/>
+                    Acepto los términos, condiciones y políticas.
+                </label>
+            
+                <input type="submit" value="Registrate">
+                <p>
+                    ¿Ya tienes una cuenta? <a href="login.html"> Accede desde aquí</a>
+                </p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
